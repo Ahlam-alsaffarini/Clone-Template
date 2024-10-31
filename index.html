@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone Template</title>
+    <!-- font file -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- bootsrap file -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- font Awesome file  -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- main css file  -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg text-uppercase sticky-top">
+        <div class="container pt-sm-2 pb-sm-2">
+            <a class="navbar-brand " href="#">start bootsrap</a>
+            <button class="navbar-toggler text-uppercase rounded-3" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                menu
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link p-3 rounded-3 " aria-current="page" href="#portfolio">portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-3 rounded-3" href="#about">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-3 rounded-3" href="#contact">contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- start landing -->
+    <div class="landing text-center d-flex justify-content-center align-items-center " id="landing">
+        <div class="container mt-5 mb-5">
+            <img src="imgs/avataaars.svg" alt="not-found">
+            <div class="main-title">
+                <h1 class="text-uppercase mt-4 mb-4">start bootsrap</h1>
+                <span class="star-icon d-inline-block position-relative mb-4"> <i
+                        class="fa-solid fa-star fs-2"></i></span>
+            </div>
+            <p class="text-capitalize text-light">graphic artiset - web designer - IIIIustrator</p>
+        </div>
+
+    </div>
+    <!-- end landing -->
+    <!-- start portfolio -->
+    <div class="portfolio" id="portfolio">
+        <div class="container pt-5 pb-5 text-center">
+            <div class="main-title dark">
+                <h1 class="text-uppercase">portfolio</h1>
+                <span class="star-icon d-inline-block position-relative mb-4"> <i
+                        class="fa-solid fa-star fs-2"></i></span>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 p-3">
+                    <div class="box mb-4 " data-bs-toggle="modal" data-bs-target="#cabin">
+                        <img class="img-fluid rounded-3" src="imgs/portfolio/cabin.png" alt="not-found">
+                        <span><i class="fa-solid fa-plus"></i></span>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="cabin" tabindex="-1" aria-labelledby="cabin" aria-hidden="true">
+                    <div class="modal-dialog bg-light rounded-4 ">
+                        <div class="modal-content container pt-5 pb-5 text-center position-relative">
+                            <div class="main-title dark ">
+                                <h1 class="text-uppercase fs-1">Log Cabin</h1>
+                                <span class="star-icon d-inline-block position-relative mb-4"> <i
+                                        class="fa-solid fa-star fs-2"></i></span>
+                            </div>
+                            <img src="imgs/portfolio/cabin.png" class="img-fluid rounded-3 mb-5">
+                            <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+                                perspiciatis quos ad
+                                voluptatum tempore magni dicta repudiandae aperiam veritatis suscipit quasi consequuntur
+                                non
+                                excepturi minima velit doloremque facilis fuga illo.</p>
+                            <button type="button" data-bs-dismiss="modal" class="btn text-capitalize ">
+                                <i class="fa-solid fa-close"></i>
+                                close window!
+                            </button>
+                            <span class="img-close" data-bs-dismiss="modal"><i class="fa-solid fa-x"></i></span>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 p-3 ">
+                    <div class="box mb-4 " data-bs-toggle="modal" data-bs-target="#cake">
+                        <img class="img-fluid rounded-3" src="imgs/portfolio/cake.png" alt="not-found">
+                        <span><i class="fa-solid fa-plus"></i></span>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="cake" tabindex="-1" aria-labelledby="cake" aria-hidden="true">
+                    <div class="modal-dialog bg-light rounded-4 ">
+                        <div class="modal-content container pt-5 pb-5 text-center position-relative">
+                            <div class="main-title dark ">
+                                <h1 class="text-uppercase fs-1">tasty cake</h1>
+                                <span class="star-icon d-inline-block position-relative mb-4"> <i
+                                        class="fa-solid fa-star fs-2"></i></span>
+                            </div>
+                            <img src="imgs/portfolio/cake.png" class="img-fluid rounded-3 mb-5">
+                            <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+                                perspiciatis quos ad
+                                voluptatum tempore magni dicta repudiandae aperiam veritatis suscipit quasi consequuntur
+                                non
+                                excepturi minima velit doloremque facilis fuga illo.</p>
+                            <button type="button" data-bs-dismiss="modal" class="btn text-capitalize ">
+                                <i class="fa-solid fa-close"></i>
+                                close window!
+                            </button>
+                            <span class="img-close" data-bs-dismiss="modal"><i class="fa-solid fa-x"></i></span>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 p-3">
+                    <div class="box mb-4 " data-bs-toggle="modal" data-bs-target="#circus">
+                        <img class="img-fluid rounded-3" src="imgs/portfolio/circus.png" alt="not-found">
+                        <span><i class="fa-solid fa-plus"></i></span>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="circus" tabindex="-1" aria-labelledby="circus" aria-hidden="true">
+                    <div class="modal-dialog bg-light rounded-4 ">
+                        <div class="modal-content container pt-5 pb-5 text-center position-relative">
+                            <div class="main-title dark ">
+                                <h1 class="text-uppercase fs-1">Circus Tent</h1>
+                                <span class="star-icon d-inline-block position-relative mb-4"> <i
+                                        class="fa-solid fa-star fs-2"></i></span>
+                            </div>
+                            <img src="imgs/portfolio/circus.png" class="img-fluid rounded-3 mb-5">
+                            <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+                                perspiciatis quos ad
+                                voluptatum tempore magni dicta repudiandae aperiam veritatis suscipit quasi consequuntur
+                                non
+                                excepturi minima velit doloremque facilis fuga illo.</p>
+                            <button type="button" data-bs-dismiss="modal" class="btn text-capitalize ">
+                                <i class="fa-solid fa-close"></i>
+                                close window!
+                            </button>
+                            <span class="img-close" data-bs-dismiss="modal"><i class="fa-solid fa-x"></i></span>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 p-3">
+                    <div class="box mb-4 " data-bs-toggle="modal" data-bs-target="#game">
+                        <img class="img-fluid rounded-3" src="imgs/portfolio/game.png" alt="not-found">
+                        <span><i class="fa-solid fa-plus"></i></span>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="game" tabindex="-1" aria-labelledby="game" aria-hidden="true">
+                    <div class="modal-dialog bg-light rounded-4 ">
+                        <div class="modal-content container pt-5 pb-5 text-center position-relative">
+                            <div class="main-title dark ">
+                                <h1 class="text-uppercase fs-1">Controller</h1>
+                                <span class="star-icon d-inline-block position-relative mb-4"> <i
+                                        class="fa-solid fa-star fs-2"></i></span>
+                            </div>
+                            <img src="imgs/portfolio/game.png" class="img-fluid rounded-3 mb-5">
+                            <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+                                perspiciatis quos ad
+                                voluptatum tempore magni dicta repudiandae aperiam veritatis suscipit quasi consequuntur
+                                non
+                                excepturi minima velit doloremque facilis fuga illo.</p>
+                            <button type="button" data-bs-dismiss="modal" class="btn text-capitalize ">
+                                <i class="fa-solid fa-close"></i>
+                                close window!
+                            </button>
+                            <span class="img-close" data-bs-dismiss="modal"><i class="fa-solid fa-x"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 p-3">
+                    <div class="box mb-4 " data-bs-toggle="modal" data-bs-target="#safe">
+                        <img class="img-fluid rounded-3" src="imgs/portfolio/safe.png" alt="not-found">
+                        <span><i class="fa-solid fa-plus"></i></span>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="safe" tabindex="-1" aria-labelledby="safe" aria-hidden="true">
+                    <div class="modal-dialog bg-light rounded-4 ">
+                        <div class="modal-content container pt-5 pb-5 text-center position-relative">
+                            <div class="main-title dark ">
+                                <h1 class="text-uppercase fs-1">Locked Safe</h1>
+                                <span class="star-icon d-inline-block position-relative mb-4"> <i
+                                        class="fa-solid fa-star fs-2"></i></span>
+                            </div>
+                            <img src="imgs/portfolio/safe.png" class="img-fluid rounded-3 mb-5">
+                            <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+                                perspiciatis quos ad
+                                voluptatum tempore magni dicta repudiandae aperiam veritatis suscipit quasi consequuntur
+                                non
+                                excepturi minima velit doloremque facilis fuga illo.</p>
+                            <button type="button" data-bs-dismiss="modal" class="btn text-capitalize ">
+                                <i class="fa-solid fa-close"></i>
+                                close window!
+                            </button>
+                            <span class="img-close" data-bs-dismiss="modal"><i class="fa-solid fa-x"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 p-3">
+                    <div class="box mb-4 " data-bs-toggle="modal" data-bs-target="#submarine">
+                        <img class="img-fluid rounded-3" src="imgs/portfolio/submarine.png" alt="not-found">
+                        <span><i class="fa-solid fa-plus"></i></span>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="submarine" tabindex="-1" aria-labelledby="submarine" aria-hidden="true">
+                    <div class="modal-dialog bg-light rounded-4 ">
+                        <div class="modal-content container pt-5 pb-5 text-center position-relative">
+                            <div class="main-title dark ">
+                                <h1 class="text-uppercase fs-1">Submarine</h1>
+                                <span class="star-icon d-inline-block position-relative mb-4"> <i
+                                        class="fa-solid fa-star fs-2"></i></span>
+                            </div>
+                            <img src="imgs/portfolio/submarine.png" class="img-fluid rounded-3 mb-5">
+                            <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+                                perspiciatis quos ad
+                                voluptatum tempore magni dicta repudiandae aperiam veritatis suscipit quasi consequuntur
+                                non
+                                excepturi minima velit doloremque facilis fuga illo.</p>
+                            <button type="button" data-bs-dismiss="modal" class="btn text-capitalize ">
+                                <i class="fa-solid fa-close"></i>
+                                close window!
+                            </button>
+                            <span class="img-close" data-bs-dismiss="modal"><i class="fa-solid fa-x"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end portfolio -->
+    <!-- start about -->
+    <div class="about" id="about">
+        <div class="container pt-5 pb-5 text-center">
+            <div class="main-title">
+                <h1 class=" text-uppercase">about</h1>
+                <span class="star-icon d-inline-block position-relative mb-4"> <i
+                        class="fa-solid fa-star fs-2"></i></span>
+            </div>
+
+            <div class="row ms-auto me-auto">
+                <div class="col-lg-6">
+                    <p class="text-light text-start ">Freelancer is a free bootstrap theme created by Start
+                        Bootstrap.
+                        The download includes the
+                        complete source files including HTML, CSS, and JavaScript as well as optional SASS
+                        stylesheets
+                        for easy customization.</p>
+                </div>
+                <div class="col-lg-6">
+                    <p class="text-light text-start ">You can create your own custom avatar for the masthead, change
+                        the
+                        icon in the dividers, and add
+                        your email address to the contact form to make it fully functional!</p>
+                </div>
+
+            </div>
+            <a class="text-capitalize btn btn-lg" href="https://startbootstrap.com/previews/freelancer"> <i
+                    class="fa-solid fa-download me-2"></i>free download!</a>
+        </div>
+    </div>
+    <!-- end about -->
+    <!-- start contact -->
+    <div class="contact" id="contact">
+        <div class="container pt-5 pb-5 ">
+            <div class="main-title dark text-center">
+                <h1 class="text-uppercase">contact me</h1>
+                <span class="star-icon d-inline-block position-relative mb-4"> <i
+                        class="fa-solid fa-star fs-2"></i></span>
+            </div>
+            <form class="ms-auto me-auto">
+                <div class="holder position-relative ">
+                    <input type="text" required id="name">
+                    <label for="name">Full name</label>
+                </div>
+                <div class="holder position-relative">
+                    <input type="text" required id="Email">
+                    <label for="Email">Email address</label>
+                </div>
+                <div class="holder position-relative">
+                    <input type="tel" id="tele" required>
+                    <label for="tele">Phone number</label>
+                </div>
+                <div class="holder position-relative">
+                    <textarea id="Message" required cols="4" rows="4"></textarea>
+                    <label for="Message">Message</label>
+                </div>
+                <button type="button" class="submit btn btn-lg text-capitalize">
+                    send
+                </button>
+                <div class="submit-successful text-center d-none">
+                    <span class="fw-bold">Form submission successful!</span>
+                    <span class="d-block ">To activate this form, sign up at</span>
+                    <a class="fw-medium"
+                        href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <!-- end contact -->
+    <!-- start footer -->
+    <div class="footer ">
+        <div class="container pt-5 pb-5">
+            <div class="row text-center text-light">
+                <div class="col-lg-4">
+                    <h5 class="text-uppercase fw-bold mb-4 mt-4">location</h5>
+                    <span class="d-block">2215 John Daniel Drive</span>
+                    <span class="d-block">Clark, MO 65243</span>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="text-uppercase fw-bold mb-4 mt-4">Around the Web</h5>
+                    <span class="icons">
+                        <a href="#" class="facebook mx-1"> <i class="fa-brands fa-facebook-f "></i></a>
+                        <a href="#" class="twitter mx-1"> <i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="linkedin mx-1"> <i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" class="globe mx-1"> <i class="fa-solid fa-globe"></i></a>
+                    </span>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="text-uppercase fw-bold mb-4 mt-4">About Freelancer</h5>
+                    <span class="span-link">Freelance is a free to use, MIT licensed Bootstrap theme created by <a
+                            href="#">Start Bootstrap</a>.
+                    </span>
+                </div>
+            </div>
+        </div>
+        <p class="copyright mt-2">Copyright © Your Website 2023</p>
+    </div>
+    <!-- end footer -->
+    <!-- Button trigger modal -->
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
