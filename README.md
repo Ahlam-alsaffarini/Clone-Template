@@ -21,8 +21,6 @@
 
 This a challenge for build Clone-Template which user should be able to:
 
-View the optimal layout for the component depending on their device's screen size
-
 - See hover states for all interactive elements on the page
 - be responsive for all screen sizes
 - using html ,css and bootstrap only
@@ -37,7 +35,7 @@ View the optimal layout for the component depending on their device's screen siz
 
 ### What I learned
 
-it was greate to use html ,css and a lot of bootstrap ,
+it was a greate time to use html ,css and a lot of bootstrap ,
 yeah it's still some of my working on proj not a professional ,but i hope in future to become stronger and more creative in writing codes ^-^
 
 ### Useful resources
@@ -47,4 +45,4 @@ yeah it's still some of my working on proj not a professional ,but i hope in fut
 
 ## Acknowledgments
 
-A big thank you to anyone providing feedback on my . It definitely helps to find new ways to code and find easier solutions!
+A big thank you to anyone providing feedback on my works. It definitely helps to find a new way to code and find easier solutions!
